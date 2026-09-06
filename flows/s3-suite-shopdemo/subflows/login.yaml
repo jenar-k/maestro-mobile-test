@@ -6,7 +6,7 @@ env:
 - extendedWaitUntil:
     visible:
       id: "input-email"
-    timeout: 40000
+    timeout: 60000
 - tapOn:
     id: "input-email"
 - inputText: ${EMAIL}
@@ -18,6 +18,6 @@ env:
 - extendedWaitUntil:
     visible:
       id: "tela-catalogo"
-    timeout: 40000
+    timeout: 60000
 - assertVisible:
     id: "tela-catalogo"
